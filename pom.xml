@@ -4,6 +4,7 @@
 
   <groupId>com.github.pellaton.estol</groupId>
   <artifactId>estol</artifactId>
+  <packaging>jar</packaging>
 
   <version>0.0.1-SNAPSHOT</version>
   <name>ESTOL application framework</name>
