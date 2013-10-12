@@ -1,4 +1,4 @@
-#ESTOL
+#ESTOL [![Build Status](https://travis-ci.org/pellaton/estol.png?branch=master)](https://travis-ci.org/pellaton/estol)
 
 **Easily build and run Spring Framwork based Java SE applications with ESTOL!**
 
