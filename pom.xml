@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  
+
   <groupId>com.github.pellaton.estol</groupId>
   <artifactId>estol</artifactId>
-  
+
   <version>0.0.1-SNAPSHOT</version>
   <name>ESTOL application framework</name>
   <description>Easily build and run Spring Framwork based Java SE applications with ESTOL</description>
@@ -17,7 +17,7 @@
       <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
     </license>
   </licenses>
-  
+
   <scm>
     <connection>scm:git:git@github.com:pellaton/estol.git</connection>
     <developerConnection>scm:git:git@github.com:pellaton/estol.git</developerConnection>
@@ -25,12 +25,11 @@
     <tag>HEAD</tag>
   </scm>
 
-  
-
   <properties>
-    <spring.framwork.version>3.2.4.RELEASE</spring.framwork.version>
+    <java.version>1.7</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <spring.framwork.version>3.2.4.RELEASE</spring.framwork.version>
   </properties>
 
   <dependencies>
@@ -40,23 +39,26 @@
       <version>${spring.framwork.version}</version>
     </dependency>
   </dependencies>
-  
+
   <developers>
     <developer>
-     <name>Michael Pellaton</name>
-     <email>michael.pellaton@gmail.com</email>
-     <url>www.pellaton.li</url>
+      <name>Michael Pellaton</name>
+      <email>michael.pellaton@gmail.com</email>
+      <url>www.pellaton.li</url>
+      <roles>
+        <role>developer</role>
+      </roles>
     </developer>
   </developers>
-  
-  <build> 
+
+  <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
+          <source>${java.version}</source>
+          <target>${java.version}</target>
         </configuration>
       </plugin>
     </plugins>
