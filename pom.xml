@@ -2,14 +2,14 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   
-  <groupId>io.github.pellaton.estol</groupId>
+  <groupId>com.github.pellaton.estol</groupId>
   <artifactId>estol</artifactId>
   
   <version>0.0.1-SNAPSHOT</version>
   <name>ESTOL application framework</name>
   <description>Easily build and run Spring Framwork based Java SE applications with ESTOL</description>
+  <url>https://github.com/pellaton/estol</url>
 
-  <url>http://pellaton.github.io/estol</url>
   <inceptionYear>2013</inceptionYear>
   <licenses>
     <license>
@@ -17,6 +17,15 @@
       <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
     </license>
   </licenses>
+  
+  <scm>
+    <connection>scm:git:git@github.com:pellaton/estol.git</connection>
+    <developerConnection>scm:git:git@github.com:pellaton/estol.git</developerConnection>
+    <url>${project.url}</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  
 
   <properties>
     <spring.framwork.version>3.2.4.RELEASE</spring.framwork.version>
