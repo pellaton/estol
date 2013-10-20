@@ -25,7 +25,7 @@ quite accurately.
 </dependencies>
 ```
 
-**Write a Spring <code>@Configuration</code> class containing a bean of type <code>ApplicationExecutable</code>:**
+**Write a Spring <code>[@Configuration](http://docs.spring.io/spring/docs/3.2.4.RELEASE/javadoc-api/org/springframework/context/annotation/Configuration.html)</code> class containing a bean of type <code>[ApplicationExecutable](https://github.com/pellaton/estol/blob/master/src/main/java/com/github/pellaton/estol/executable/ApplicationExecutable.java)</code>:**
 ``` java
 @Configuration
 public class HelloWorldConfiguration {
@@ -40,7 +40,7 @@ public class HelloWorldConfiguration {
   }
 }
 ```
-**Write the main class of your application feeding the configuration class into the <code>ApplicationRunner</code>:**
+**Write the main class of your application feeding the configuration class into the <code>[ApplicationRunner](https://github.com/pellaton/estol/blob/master/src/main/java/com/github/pellaton/estol/ApplicationRunner.java)</code>:**
 ``` java
 public class HelloWorld {
   public static void main(String[] args) {
