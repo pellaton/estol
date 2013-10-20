@@ -15,14 +15,14 @@ public class DefaultApplicationDefinition implements ApplicationDefinition {
 
   private final ApplicationContextLoader applicationContextLoader = new DefaultApplicationContextLoader();
   private final List<Class<?>> configurationClasses;
-  
+
 
   /**
    * Constructor.
    * 
    * @param configurationClasses the configuration classes that define the Spring application context.
    * 
-   * @throws IllegalArgumentException if not at least one configuration class is provided
+   * @throws IllegalArgumentException if not at least one non-null configuration class is provided
    */
   public DefaultApplicationDefinition(Class<?>... configurationClasses) {
     this.configurationClasses = new ArrayList<>();
@@ -34,25 +34,12 @@ public class DefaultApplicationDefinition implements ApplicationDefinition {
         this.configurationClasses.add(configurationClass);
       }
     }
-    
+
     if (this.configurationClasses.isEmpty()) {
       throw new IllegalArgumentException("At least one non-null configuration class must be provided.");
     }
   }
-  
-  
-  /**
-   * This default implementation uses the name of the first configuration class name as application name.
-   * 
-   * {@inheritDoc}
-   */
-  @Override
-  public String getApplicationName() {
-    if (!configurationClasses.isEmpty()) {
-      return configurationClasses.get(0).getSimpleName();
-    }
-    return "application";
-  }
+
 
   @Override
   public List<Class<?>> getConfigurationClasses() {
