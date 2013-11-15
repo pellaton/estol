@@ -7,7 +7,7 @@ and it follows a more conservative design approach with way less under-the-hood 
 
 
 **ESTOL?**<br/>
-The aviation lingo acronym ESTOL stands for <i>Extremely Short Take-Off and Landing</i>
+The aviation lingo acronym [ESTOL](http://de.wikipedia.org/wiki/STOL) stands for <i>Extremely Short Take-Off and Landing</i>
 which describes the aim of this project in terms of Java SE main application development 
 quite accurately.
 
