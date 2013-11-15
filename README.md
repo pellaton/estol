@@ -2,7 +2,7 @@
 **Easily build and run Spring Framwork based Java SE applications with ESTOL!**
 
 **What about spring boot?**<br/>
-While the general aim of Spring Boot and ESTOL are similar, ESTOL is based on Spring 3.2 
+While the general aim of [Spring Boot](http://projects.spring.io/spring-boot/) and ESTOL are similar, ESTOL is based on Spring 3.2 
 and it follows a more conservative design approach with way less under-the-hood magic.
 
 

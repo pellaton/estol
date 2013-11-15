@@ -7,7 +7,7 @@
 
   <version>1.0.1-SNAPSHOT</version>
   <name>ESTOL application framework</name>
-  <description>Easily build and run Spring Framwork based Java SE applications with ESTOL</description>
+  <description>Easily build and run Spring Framwork based Java SE applications with ESTOL.</description>
   <url>https://github.com/pellaton/estol</url>
   <inceptionYear>2013</inceptionYear>
 
