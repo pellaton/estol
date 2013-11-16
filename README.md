@@ -1,5 +1,5 @@
 #ESTOL [![Build Status](https://travis-ci.org/pellaton/estol.png?branch=master)](https://travis-ci.org/pellaton/estol)
-**Easily build and run Spring Framwork based Java SE applications with ESTOL!**
+**Easily build and run Spring Framwork based Java SE applications with ESTOL.**
 
 **What about spring boot?**<br/>
 While the general aim of [Spring Boot](http://projects.spring.io/spring-boot/) and ESTOL are similar, ESTOL is based on Spring 3.2 
