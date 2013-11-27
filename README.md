@@ -12,7 +12,6 @@ which describes the aim of this project in terms of Java SE main application dev
 quite accurately.
 
 ##Quick Start
-
 **Add the following dependency to your Maven POM:**
 ``` xml
 <dependencies>
